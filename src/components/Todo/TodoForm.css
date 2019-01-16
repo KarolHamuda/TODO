@@ -1,0 +1,22 @@
+.TodoFormContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.TodoForm {
+    font-size: calc(10px + 2vmin);
+    height: calc(24px + 2vmin);
+}
+
+.btnTodo {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn {
+    font-size: calc(8px + 1vmin);
+}

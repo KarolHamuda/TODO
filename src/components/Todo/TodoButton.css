@@ -1,0 +1,10 @@
+.deleteButton {
+    background-color: white;
+    background-image: none;
+
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: none;
+    font-size: calc(8px + 2vmin);
+}

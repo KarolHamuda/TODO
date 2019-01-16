@@ -1,0 +1,45 @@
+.todoLabels {
+    display: flex;
+ 
+    
+    justify-content: center;
+}
+
+.TodoTransition-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+  }
+  
+  .TodoTransition-enter.TodoTransition-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity, transform 400ms ease-in;
+  }
+
+  .TodoTransition-appear {
+    transform: translateX(-100%);
+  }
+
+  .TodoTransition-appear.TodoTransition-appear-active {
+    transform: translateX(0%);
+    transition: transform 400ms ease-in;
+  }
+
+  .TodoTransition-leave {
+    transform: translateX(0%);
+  }
+
+  .TodoTransition-leave-active {
+    
+    animation: slide-out-right 300ms ease-out forwards;
+   
+  }
+
+  @keyframes slide-out-right {
+      from {
+          transform: translate(0%);
+      }
+      to {
+          transform: translate(100%);
+      }
+  }

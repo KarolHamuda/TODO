@@ -1,0 +1,22 @@
+.TodoItemContainer {
+   
+    margin-top: 10px;
+}
+
+.TodoItem {
+    margin: 5px;
+    font-size: calc(8px + 2vmin);
+    border: 8px outset rgba(28,110,164,0.15);
+    border-radius: 21px;
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.TodoItemForm {
+    font-size: calc(10px + 2vmin);
+    height: calc(24px + 2vmin);
+    border: none;
+}
+  

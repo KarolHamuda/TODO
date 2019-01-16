@@ -1,0 +1,7 @@
+.Header { 
+    
+    margin-top: 5px;
+    background-color: rgba(0, 149, 218, 0.267);
+    font-size: calc(16px + 2vmin);
+    text-align: center;
+}
